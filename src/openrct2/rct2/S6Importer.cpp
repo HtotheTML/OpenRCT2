@@ -656,7 +656,7 @@ namespace RCT2
                 surfaceElement->SetWaterHeight(96);
             }
             else if (
-                String::Equals(_s6.ScenarioFilename, "Six Flags Holland.SC6")
+                String::Equals(_s6.ScenarioFilename, "Six Flags Holland.SC6", true)
                 || String::Equals(_s6.ScenarioFilename, "six flags holland.sea", true))
 
             {
